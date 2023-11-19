@@ -1,0 +1,137 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif; */
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif; */
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif; */
+
+
+/* - Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#section{
+
+    background-color:hsl(30, 38%, 92%) ;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+#section #box{
+    margin: 3rem auto;
+    width: 48%;
+    height: 480px;
+    display: flex;
+    
+    
+}
+#box .image{
+    flex-basis: 46.8%;
+
+
+}
+
+#box img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cart{
+
+    flex-basis: 38.8%;
+    padding: 35px 33px 30px ;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+
+
+small{
+    font-size: 30px;
+    font-weight: 600;
+    color: #3D8168;
+    font-style: normal; 
+    
+}
+.cart h1{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 23px;
+    color: #6A6B6F;
+    letter-spacing: 10px;
+    
+}
+
+.cart h2{
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    padding: 0 10px 24px 0;
+    line-height: 1;
+
+}
+
+.cart p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 24px;
+    padding-right: 34px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+
+}
+
+
+
+
+
+.cart .add{
+    display: flex;
+    
+}
+.add small{
+    font-family: 'Fraunces', serif;
+    font-size: 37px;
+}
+.add h6{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+.cart button{
+    background-color: #3D8168;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-top: 23px;
+}
